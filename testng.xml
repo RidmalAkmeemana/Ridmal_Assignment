@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/IdeaProjects/Ridmal_Assignment">
+        <classes>
+            <class name="Tests.RegisterTest">
+                <methods>
+                    <include name="CreateAccount"/>
+                </methods>
+            </class>
+
+            <class name="Tests.LogInPageTest">
+                <methods>
+                    <include name="LogInWithValidData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

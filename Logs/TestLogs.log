@@ -1,16 +1,16 @@
-2023-07-12 15:26:43.517 [INFO ] Infra.BasePage -  ======================== Opening Web Browser ======================== 
+2023-07-13 10:46:30.486 [INFO ] Infra.BasePage -  ======================== Opening Web Browser ======================== 
 
-2023-07-12 15:26:47.698 [INFO ] Infra.BasePage -  +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ 
-2023-07-12 15:26:53.562 [INFO ] Infra.BasePage - Redirect to: https://www.testyou.in/SignUp.aspx
-2023-07-12 15:26:57.965 [INFO ] Infra.BasePage - g2
+2023-07-13 10:46:35.390 [INFO ] Infra.BasePage -  +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ 
+2023-07-13 10:46:49.068 [INFO ] Infra.BasePage - Redirect to: https://www.testyou.in/SignUp.aspx
+2023-07-13 10:46:53.535 [INFO ] Infra.BasePage - "Mped)
 
-2023-07-12 15:27:16.128 [ERROR] Infra.BasePage - User Registration Failed
-2023-07-12 15:27:18.161 [INFO ] Infra.BasePage -  ======================== Closing Web Browser ======================== 
+2023-07-13 10:47:12.147 [ERROR] Infra.BasePage - User Registration Failed
+2023-07-13 10:47:14.217 [INFO ] Infra.BasePage -  ======================== Closing Web Browser ======================== 
 
-2023-07-12 15:27:20.769 [INFO ] Infra.BasePage -  ======================== Opening Web Browser ======================== 
+2023-07-13 10:47:16.492 [INFO ] Infra.BasePage -  ======================== Opening Web Browser ======================== 
 
-2023-07-12 15:27:23.650 [INFO ] Infra.BasePage -  +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ 
-2023-07-12 15:27:28.333 [INFO ] Infra.BasePage - Redirect to: https://www.testyou.in/Login.aspx?
-2023-07-12 15:27:37.793 [INFO ] Infra.BasePage - User Login Failed
-2023-07-12 15:27:39.795 [INFO ] Infra.BasePage -  ======================== Closing Web Browser ======================== 
+2023-07-13 10:47:19.597 [INFO ] Infra.BasePage -  +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ 
+2023-07-13 10:47:24.202 [INFO ] Infra.BasePage - Redirect to: https://www.testyou.in/Login.aspx?
+2023-07-13 10:47:33.507 [ERROR] Infra.BasePage - User Login Failed
+2023-07-13 10:47:35.538 [INFO ] Infra.BasePage -  ======================== Closing Web Browser ======================== 
 

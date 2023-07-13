@@ -1,16 +1,8 @@
-2023-07-13 10:46:30.486 [INFO ] Infra.BasePage -  ======================== Opening Web Browser ======================== 
+2023-07-13 11:43:55.260 [INFO ] Infra.BasePage -  ======================== Opening Web Browser ======================== 
 
-2023-07-13 10:46:35.390 [INFO ] Infra.BasePage -  +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ 
-2023-07-13 10:46:49.068 [INFO ] Infra.BasePage - Redirect to: https://www.testyou.in/SignUp.aspx
-2023-07-13 10:46:53.535 [INFO ] Infra.BasePage - "Mped)
+2023-07-13 11:44:02.134 [INFO ] Infra.BasePage -  +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ 
+2023-07-13 11:44:17.986 [INFO ] Infra.BasePage - Redirect to: https://www.testyou.in/SignUp.aspx
+2023-07-13 11:44:22.743 [INFO ] Infra.BasePage - a(fy
 
-2023-07-13 10:47:12.147 [ERROR] Infra.BasePage - User Registration Failed
-2023-07-13 10:47:14.217 [INFO ] Infra.BasePage -  ======================== Closing Web Browser ======================== 
-
-2023-07-13 10:47:16.492 [INFO ] Infra.BasePage -  ======================== Opening Web Browser ======================== 
-
-2023-07-13 10:47:19.597 [INFO ] Infra.BasePage -  +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ 
-2023-07-13 10:47:24.202 [INFO ] Infra.BasePage - Redirect to: https://www.testyou.in/Login.aspx?
-2023-07-13 10:47:33.507 [ERROR] Infra.BasePage - User Login Failed
-2023-07-13 10:47:35.538 [INFO ] Infra.BasePage -  ======================== Closing Web Browser ======================== 
+2023-07-13 11:44:22.875 [INFO ] Infra.BasePage -  ======================== Closing Web Browser ======================== 
 

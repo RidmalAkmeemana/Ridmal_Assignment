@@ -28,7 +28,9 @@ public class BasePage
     //Loading Browser
     @BeforeClass
     public void openBrowser() throws InterruptedException {
-        logger.info(" ======================== Opening Web Browser ======================== \n");
+        logger.info("=======================================================");
+        logger.info("OPENING WEB BROWSER");
+        logger.info("=======================================================\n");
         Thread.sleep(2000);
 
         driver = new ChromeDriver(getOptions());
@@ -40,7 +42,9 @@ public class BasePage
     //Close Browser
     @AfterClass
     public void closeBrowser() throws InterruptedException {
-        logger.info(" ======================== Closing Web Browser ======================== \n");
+        logger.info("=======================================================");
+        logger.info("CLOSING WEB BROWSER");
+        logger.info("=======================================================\n");
         Thread.sleep(2000);
 
         driver.quit();

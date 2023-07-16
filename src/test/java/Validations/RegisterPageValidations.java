@@ -24,15 +24,15 @@ public class RegisterPageValidations extends BasePage
 
         if(isSuccessMsgVisible)
         {
-            logger.info("User Registration Pass");
+            logger.info("USER REGISTRATION - PASSED\n");
             Thread.sleep(2000);
         }
         else
         {
-            logger.error("User Registration Failed");
+            logger.error("USER REGISTRATION - FAILED\n");
             Thread.sleep(2000);
         }
-        Assert.assertTrue(isSuccessMsgVisible, "User Registration Failed");
+        Assert.assertTrue(isSuccessMsgVisible, "USER REGISTRATION - FAILED\n");
     }
 
 }

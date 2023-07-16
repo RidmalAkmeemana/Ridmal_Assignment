@@ -41,7 +41,7 @@ public class CaptchaListener extends BasePage
 
         String Captcha = image.doOCR(new File(path));
         Thread.sleep(2000);
-        logger.info(Captcha);
+        logger.info("ENTER CAPTCHA TEXT - " +Captcha+ "\n");
 
         return Captcha;
     }

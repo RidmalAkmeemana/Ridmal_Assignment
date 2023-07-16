@@ -11,14 +11,18 @@ public class LogInPageTest extends BasePage
 
     @Test(priority = 1)
     public void LogInWithValidData() throws InterruptedException {
-        logger.info(" +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ ");
+
+        logger.info("-------------------------------------------------------");
+        logger.info("LOG IN");
+        logger.info("-------------------------------------------------------\n");
+        Thread.sleep(2000);
 
         LogInPage logInPage = new LogInPage(driver);
         LogInPageValidations logInPageValidations = new LogInPageValidations(driver);
 
         logInPage.openLogInPage(logInPage.setUrl());
         Thread.sleep(2000);
-        logger.info("Redirect to: " +logInPage.setUrl());
+        logger.info("Redirect to: " +logInPage.setUrl()+ "\n");
 
         //Test Data
 
@@ -27,7 +31,13 @@ public class LogInPageTest extends BasePage
 
         //Enter User Details
 
+        logger.info("ENTER EMAIL OR LOGIN ID - "+emailOrLoginID);
+        logger.info("ENTER PASSWORD - "+password);
+
         logInPage.fillData(emailOrLoginID, password);
+        Thread.sleep(2000);
+
+        logger.info("CLICK ON LOG IN BUTTON \n");
         logInPage.clickOnLogIn();
         Thread.sleep(2000);
 
@@ -36,6 +46,9 @@ public class LogInPageTest extends BasePage
         logInPageValidations.LoginSuccess();
         Thread.sleep(2000);
 
-        logger.info(" +++++++++++++++++++++++ Create Account Processed +++++++++++++++++++++++ \n");
+        logger.info("-------------------------------------------------------");
+        logger.info("LOG IN PROCESSED");
+        logger.info("-------------------------------------------------------\n");
+        Thread.sleep(2000);
     }
 }

@@ -16,7 +16,10 @@ public class RegisterTest extends BasePage
     @Test(priority = 1, description = "Create Account")
     public void CreateAccount() throws InterruptedException, IOException, TesseractException {
 
-        logger.info(" +++++++++++++++++++++++ Create Account +++++++++++++++++++++++ ");
+        logger.info("-------------------------------------------------------");
+        logger.info("CREATE ACCOUNT");
+        logger.info("-------------------------------------------------------\n");
+        Thread.sleep(2000);
 
         RegisterPage registerPage = new RegisterPage(driver);
         CaptchaListener captchaListener = new CaptchaListener(driver);
@@ -24,9 +27,9 @@ public class RegisterTest extends BasePage
 
         registerPage.openRegisterPage(registerPage.setUrl());
         Thread.sleep(2000);
-        logger.info("Redirect to: " +registerPage.setUrl());
 
-        String captchaText = captchaListener.getCaptchaImg();
+        logger.info("Redirect to: " +registerPage.setUrl()+ "\n");
+        Thread.sleep(2000);
 
         //Test Data
 
@@ -35,11 +38,22 @@ public class RegisterTest extends BasePage
         loginId = "Ridmal";
         password = "Ridmal1234";
         confirm = "Ridmal1234";
-        verification = captchaText;
 
         //Enter User Details
 
+        logger.info("ENTER NAME - "+name);
+        logger.info("ENTER EMAIL - "+email);
+        logger.info("ENTER LOGIN ID - "+loginId);
+        logger.info("ENTER PASSWORD - "+password);
+        logger.info("ENTER FORM CONFIRM PASSWORD - "+confirm);
+
+        String captchaText = captchaListener.getCaptchaImg();
+        verification = captchaText;
+
         registerPage.fillData(name, email, loginId, password, confirm, verification);
+        Thread.sleep(2000);
+
+        logger.info("CLICK ON SIGN IN BUTTON \n");
         registerPage.clickOnSignIn();
         Thread.sleep(2000);
 
@@ -48,6 +62,9 @@ public class RegisterTest extends BasePage
         registerPageValidations.AccountCreated();
         Thread.sleep(2000);
 
-        logger.info(" +++++++++++++++++++++++ Create Account Processed +++++++++++++++++++++++ \n");
+        logger.info("-------------------------------------------------------");
+        logger.info("CREATE ACCOUNT PROCESSED");
+        logger.info("-------------------------------------------------------\n");
+        Thread.sleep(2000);
     }
 }

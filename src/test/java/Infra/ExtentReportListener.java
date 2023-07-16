@@ -5,7 +5,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -22,7 +22,7 @@ public class ExtentReportListener implements ITestListener
     public void onStart(ITestContext context) {
 
         RegisterPage registerPage = new RegisterPage(driver);
-        ExtentHtmlReporter sparkReporter = new ExtentHtmlReporter("Reports/ExtentReport.html");
+        ExtentSparkReporter sparkReporter = new ExtentSparkReporter("Reports/ExtentReport.html");
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
 

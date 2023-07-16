@@ -24,14 +24,14 @@ public class LogInPageValidations extends BasePage {
 
         if(isErrorMsgVisible)
         {
-            logger.error("User Login Failed");
+            logger.error("USER LOG IN - FAILED\n");
             Thread.sleep(2000);
         }
         else
         {
-            logger.info("User Login Success");
+            logger.info("USER LOGIN PASSED\n");
             Thread.sleep(2000);
         }
-        Assert.assertFalse(isErrorMsgVisible, "User Login Failed | " +ErrorMsg);
+        Assert.assertFalse(isErrorMsgVisible, "USER LOG IN - FAILED | " +ErrorMsg);
     }
 }

@@ -47,6 +47,7 @@ public class RegisterTest extends BasePage
         logger.info("ENTER LOGIN ID - "+loginId);
         logger.info("ENTER PASSWORD - "+password);
         logger.info("ENTER FORM CONFIRM PASSWORD - "+confirm);
+        logger.info("ENTER VERIFICATION CODE - "+verification);
 
 //        String captchaText = captchaListener.getCaptchaImg();
 //        verification = captchaText;

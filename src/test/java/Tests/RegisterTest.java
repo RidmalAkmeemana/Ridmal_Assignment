@@ -38,6 +38,7 @@ public class RegisterTest extends BasePage
         loginId = "Ridmal";
         password = "Ridmal1234";
         confirm = "Ridmal1234";
+        verification = "abc123";
 
         //Enter User Details
 
@@ -47,8 +48,8 @@ public class RegisterTest extends BasePage
         logger.info("ENTER PASSWORD - "+password);
         logger.info("ENTER FORM CONFIRM PASSWORD - "+confirm);
 
-        String captchaText = captchaListener.getCaptchaImg();
-        verification = captchaText;
+//        String captchaText = captchaListener.getCaptchaImg();
+//        verification = captchaText;
 
         registerPage.fillData(name, email, loginId, password, confirm, verification);
         Thread.sleep(2000);

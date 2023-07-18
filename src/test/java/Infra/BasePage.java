@@ -22,6 +22,7 @@ public class BasePage
     {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--headless");
         return options;
     }
 

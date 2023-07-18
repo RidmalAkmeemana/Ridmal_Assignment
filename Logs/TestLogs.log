@@ -1,43 +1,44 @@
-[INFO] Jul 17, 2023 1:23:38 PM Infra.BasePage - =======================================================
-[INFO] Jul 17, 2023 1:23:38 PM Infra.BasePage - OPENING WEB BROWSER
-[INFO] Jul 17, 2023 1:23:38 PM Infra.BasePage - =======================================================
+[INFO] Jul 18, 2023 3:44:41 PM Infra.BasePage - =======================================================
+[INFO] Jul 18, 2023 3:44:41 PM Infra.BasePage - OPENING WEB BROWSER
+[INFO] Jul 18, 2023 3:44:41 PM Infra.BasePage - =======================================================
 
-[INFO] Jul 17, 2023 1:23:41 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Jul 17, 2023 1:23:41 PM Infra.BasePage - CREATE ACCOUNT
-[INFO] Jul 17, 2023 1:23:41 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Jul 18, 2023 3:44:45 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Jul 18, 2023 3:44:45 PM Infra.BasePage - CREATE ACCOUNT
+[INFO] Jul 18, 2023 3:44:45 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Jul 17, 2023 1:23:49 PM Infra.BasePage - Redirect to: https://www.testyou.in/SignUp.aspx
+[INFO] Jul 18, 2023 3:44:57 PM Infra.BasePage - Redirect to: https://www.testyou.in/SignUp.aspx
 
-[INFO] Jul 17, 2023 1:23:51 PM Infra.BasePage - ENTER NAME - Ridmal Akmeemana
-[INFO] Jul 17, 2023 1:23:51 PM Infra.BasePage - ENTER EMAIL - rajeewaakmeemana@gmail.com
-[INFO] Jul 17, 2023 1:23:51 PM Infra.BasePage - ENTER LOGIN ID - Ridmal
-[INFO] Jul 17, 2023 1:23:51 PM Infra.BasePage - ENTER PASSWORD - Ridmal1234
-[INFO] Jul 17, 2023 1:23:51 PM Infra.BasePage - ENTER FORM CONFIRM PASSWORD - Ridmal1234
-[INFO] Jul 17, 2023 1:24:05 PM Infra.BasePage - CLICK ON SIGN IN BUTTON 
+[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER NAME - Ridmal Akmeemana
+[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER EMAIL - rajeewaakmeemana@gmail.com
+[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER LOGIN ID - Ridmal
+[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER PASSWORD - Ridmal1234
+[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER FORM CONFIRM PASSWORD - Ridmal1234
+[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER VERIFICATION CODE - abc123
+[INFO] Jul 18, 2023 3:45:13 PM Infra.BasePage - CLICK ON SIGN IN BUTTON 
 
-[ERROR] Jul 17, 2023 1:24:11 PM Infra.BasePage - USER REGISTRATION - FAILED
+[ERROR] Jul 18, 2023 3:45:19 PM Infra.BasePage - USER REGISTRATION - FAILED
 
-[INFO] Jul 17, 2023 1:24:13 PM Infra.BasePage - =======================================================
-[INFO] Jul 17, 2023 1:24:13 PM Infra.BasePage - CLOSING WEB BROWSER
-[INFO] Jul 17, 2023 1:24:13 PM Infra.BasePage - =======================================================
+[INFO] Jul 18, 2023 3:45:21 PM Infra.BasePage - =======================================================
+[INFO] Jul 18, 2023 3:45:21 PM Infra.BasePage - CLOSING WEB BROWSER
+[INFO] Jul 18, 2023 3:45:21 PM Infra.BasePage - =======================================================
 
-[INFO] Jul 17, 2023 1:24:15 PM Infra.BasePage - =======================================================
-[INFO] Jul 17, 2023 1:24:15 PM Infra.BasePage - OPENING WEB BROWSER
-[INFO] Jul 17, 2023 1:24:15 PM Infra.BasePage - =======================================================
+[INFO] Jul 18, 2023 3:45:23 PM Infra.BasePage - =======================================================
+[INFO] Jul 18, 2023 3:45:23 PM Infra.BasePage - OPENING WEB BROWSER
+[INFO] Jul 18, 2023 3:45:23 PM Infra.BasePage - =======================================================
 
-[INFO] Jul 17, 2023 1:24:18 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Jul 17, 2023 1:24:18 PM Infra.BasePage - LOG IN
-[INFO] Jul 17, 2023 1:24:18 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Jul 18, 2023 3:45:26 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Jul 18, 2023 3:45:26 PM Infra.BasePage - LOG IN
+[INFO] Jul 18, 2023 3:45:26 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Jul 17, 2023 1:24:25 PM Infra.BasePage - Redirect to: https://www.testyou.in/Login.aspx?
+[INFO] Jul 18, 2023 3:45:34 PM Infra.BasePage - Redirect to: https://www.testyou.in/Login.aspx?
 
-[INFO] Jul 17, 2023 1:24:25 PM Infra.BasePage - ENTER EMAIL OR LOGIN ID - rajeewaakmeemana@gmail.com
-[INFO] Jul 17, 2023 1:24:25 PM Infra.BasePage - ENTER PASSWORD - Ridmal1234
-[INFO] Jul 17, 2023 1:24:31 PM Infra.BasePage - CLICK ON LOG IN BUTTON 
+[INFO] Jul 18, 2023 3:45:34 PM Infra.BasePage - ENTER EMAIL OR LOGIN ID - rajeewaakmeemana@gmail.com
+[INFO] Jul 18, 2023 3:45:34 PM Infra.BasePage - ENTER PASSWORD - Ridmal1234
+[INFO] Jul 18, 2023 3:45:40 PM Infra.BasePage - CLICK ON LOG IN BUTTON 
 
-[ERROR] Jul 17, 2023 1:24:36 PM Infra.BasePage - USER LOG IN - FAILED
+[ERROR] Jul 18, 2023 3:45:45 PM Infra.BasePage - USER LOG IN - FAILED
 
-[INFO] Jul 17, 2023 1:24:38 PM Infra.BasePage - =======================================================
-[INFO] Jul 17, 2023 1:24:38 PM Infra.BasePage - CLOSING WEB BROWSER
-[INFO] Jul 17, 2023 1:24:38 PM Infra.BasePage - =======================================================
+[INFO] Jul 18, 2023 3:45:47 PM Infra.BasePage - =======================================================
+[INFO] Jul 18, 2023 3:45:47 PM Infra.BasePage - CLOSING WEB BROWSER
+[INFO] Jul 18, 2023 3:45:47 PM Infra.BasePage - =======================================================
 

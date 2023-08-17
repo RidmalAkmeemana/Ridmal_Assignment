@@ -1,44 +1,20 @@
-[INFO] Jul 18, 2023 3:44:41 PM Infra.BasePage - =======================================================
-[INFO] Jul 18, 2023 3:44:41 PM Infra.BasePage - OPENING WEB BROWSER
-[INFO] Jul 18, 2023 3:44:41 PM Infra.BasePage - =======================================================
+[INFO] Aug 17, 2023 10:35:20 PM Infra.BasePage - =======================================================
+[INFO] Aug 17, 2023 10:35:20 PM Infra.BasePage - OPENING WEB BROWSER
+[INFO] Aug 17, 2023 10:35:20 PM Infra.BasePage - =======================================================
 
-[INFO] Jul 18, 2023 3:44:45 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Jul 18, 2023 3:44:45 PM Infra.BasePage - CREATE ACCOUNT
-[INFO] Jul 18, 2023 3:44:45 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Aug 17, 2023 10:35:24 PM Infra.BasePage - -------------------------------------------------------
+[INFO] Aug 17, 2023 10:35:24 PM Infra.BasePage - LOG IN
+[INFO] Aug 17, 2023 10:35:24 PM Infra.BasePage - -------------------------------------------------------
 
-[INFO] Jul 18, 2023 3:44:57 PM Infra.BasePage - Redirect to: https://www.testyou.in/SignUp.aspx
+[INFO] Aug 17, 2023 10:35:34 PM Infra.BasePage - Redirect to: https://www.testyou.in/Login.aspx?
 
-[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER NAME - Ridmal Akmeemana
-[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER EMAIL - rajeewaakmeemana@gmail.com
-[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER LOGIN ID - Ridmal
-[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER PASSWORD - Ridmal1234
-[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER FORM CONFIRM PASSWORD - Ridmal1234
-[INFO] Jul 18, 2023 3:44:59 PM Infra.BasePage - ENTER VERIFICATION CODE - abc123
-[INFO] Jul 18, 2023 3:45:13 PM Infra.BasePage - CLICK ON SIGN IN BUTTON 
+[INFO] Aug 17, 2023 10:35:34 PM Infra.BasePage - ENTER EMAIL OR LOGIN ID - rajeewaakmeemana@gmail.com
+[INFO] Aug 17, 2023 10:35:34 PM Infra.BasePage - ENTER PASSWORD - Ridmal1234
+[INFO] Aug 17, 2023 10:35:40 PM Infra.BasePage - CLICK ON LOG IN BUTTON 
 
-[ERROR] Jul 18, 2023 3:45:19 PM Infra.BasePage - USER REGISTRATION - FAILED
+[ERROR] Aug 17, 2023 10:35:45 PM Infra.BasePage - USER LOG IN - FAILED
 
-[INFO] Jul 18, 2023 3:45:21 PM Infra.BasePage - =======================================================
-[INFO] Jul 18, 2023 3:45:21 PM Infra.BasePage - CLOSING WEB BROWSER
-[INFO] Jul 18, 2023 3:45:21 PM Infra.BasePage - =======================================================
-
-[INFO] Jul 18, 2023 3:45:23 PM Infra.BasePage - =======================================================
-[INFO] Jul 18, 2023 3:45:23 PM Infra.BasePage - OPENING WEB BROWSER
-[INFO] Jul 18, 2023 3:45:23 PM Infra.BasePage - =======================================================
-
-[INFO] Jul 18, 2023 3:45:26 PM Infra.BasePage - -------------------------------------------------------
-[INFO] Jul 18, 2023 3:45:26 PM Infra.BasePage - LOG IN
-[INFO] Jul 18, 2023 3:45:26 PM Infra.BasePage - -------------------------------------------------------
-
-[INFO] Jul 18, 2023 3:45:34 PM Infra.BasePage - Redirect to: https://www.testyou.in/Login.aspx?
-
-[INFO] Jul 18, 2023 3:45:34 PM Infra.BasePage - ENTER EMAIL OR LOGIN ID - rajeewaakmeemana@gmail.com
-[INFO] Jul 18, 2023 3:45:34 PM Infra.BasePage - ENTER PASSWORD - Ridmal1234
-[INFO] Jul 18, 2023 3:45:40 PM Infra.BasePage - CLICK ON LOG IN BUTTON 
-
-[ERROR] Jul 18, 2023 3:45:45 PM Infra.BasePage - USER LOG IN - FAILED
-
-[INFO] Jul 18, 2023 3:45:47 PM Infra.BasePage - =======================================================
-[INFO] Jul 18, 2023 3:45:47 PM Infra.BasePage - CLOSING WEB BROWSER
-[INFO] Jul 18, 2023 3:45:47 PM Infra.BasePage - =======================================================
+[INFO] Aug 17, 2023 10:35:47 PM Infra.BasePage - =======================================================
+[INFO] Aug 17, 2023 10:35:47 PM Infra.BasePage - CLOSING WEB BROWSER
+[INFO] Aug 17, 2023 10:35:47 PM Infra.BasePage - =======================================================
 
